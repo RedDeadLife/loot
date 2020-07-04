@@ -1,5 +1,3 @@
---[[This is a remake of Cryptos Looting, all I did was tweak it to work
-	added in a little xp ]]
 local looting = false
 
 Citizen.CreateThread(function()
@@ -33,8 +31,10 @@ Citizen.CreateThread(function()
 										local loot = math.random(1, 10)
 										local lootpay = loot / 100
 										local xppay = math.random(1, 2)
+										local stuff = math.random(1,100)
 											TriggerServerEvent("loot:addmoney", lootpay)
 											TriggerServerEvent("loot:addxp", xppay)
+											TriggerServerEvent("loot:giveitem", stuff)
 									else
 									looting = false
 								end
