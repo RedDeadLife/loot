@@ -43,7 +43,6 @@ Citizen.CreateThread(function()
 									else
 										looting = false
 									end
-								else
 									looting = false
 								end
 							end
