@@ -2,16 +2,17 @@ Thanks to Cryptos' loot for the base of this
 and A HUGE thanks to Poke for helping me out!
 
 Changes
-	fixed typo in addXP, now gives XP per loot
-
+	Fixed typo in addXP, now gives XP per loot
+	started support for skinning animals
+	started support for picking up small "Critter" like carcuss
+	started Support for Collectables
 	
 
- TODO
-Add a Item Loot table so you can loot random things from the npc's
+Things TODO
+	correctly delete PEDs after picking them up
+	change harvested Peds to the skinned models of them
 
-	common items such as bullets
-	Semi uncommon items like Tonics
-	Rare could be Gold or Some type of Collectable like in RDO?
-	started the hook for item loot.
-	
-	
+finish Item Loot table so you can loot random things from the npc's
+finish Animal cfg for all the animals
+finish Critter cfg for the small game animals
+finish Collectable cfg for all the Collectables
