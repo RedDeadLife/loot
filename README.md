@@ -1,18 +1,33 @@
 Thanks to Cryptos' loot for the base of this
 and A HUGE thanks to Poke for helping me out!
+the skinning is baised on Juan_Hunting cfg layout since a lot of the work has already been done.
+
+ !!!! WARNNING !!!!!
+	this will not work with Juan_Hunting by default
+
+
+
 
 Changes
+
 	Fixed typo in addXP, now gives XP per loot
 	started support for skinning animals
 	started support for picking up small "Critter" like carcuss
-	started Support for Collectables
-	
+	started support for Plucking (SKINNING) birds.
+	Item Loot table so you can loot random things from the npc's -- just add the items in the nil place
+	RDO style looting prompts
+
+
 
 Things TODO
-	correctly delete PEDs after picking them up
-	change harvested Peds to the skinned models of them
 
-finish Item Loot table so you can loot random things from the npc's
-finish Animal cfg for all the animals
-finish Critter cfg for the small game animals
-finish Collectable cfg for all the Collectables
+	start Support for Collectables
+	start Hide system quality
+	change harvested Peds to the skinned models of them
+		--Doesnt effect Bird Models
+		-- for now its deleteing them
+	finish Animal cfg for all the animals
+	finish Critter cfg for the small game animals
+	finish Collectable cfg for all the Collectables
+	finish SQL for lootable items
+	finish sql for collectable items
