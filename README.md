@@ -1,10 +1,11 @@
 Thanks to Cryptos' loot for the base of this
 and A HUGE thanks to Poke for helping me out!
 the skinning is baised on Juan_Hunting cfg layout since a lot of the work has already been done.
+!!!! WARNNING !!!!! 
+This will not work with Juan_Hunting by default
 
- !!!! WARNNING !!!!!
-	this will not work with Juan_Hunting by default
-
+Not all Ped Models have been added to the loot.
+	
 
 
 
