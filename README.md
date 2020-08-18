@@ -20,6 +20,10 @@ Changes
 	Item Loot table so you can loot random things from the npc's -- just add the items in the nil place
 	RDO style looting prompts
 	Updated config to remove nil errors
+	Fixed skinable = false (overkilled them while trying to keep cheatting down)
+	Fixed Double SQl entry 
+	Added Carcass after skinning is completed. (Carcass stick around for about 20 sec each , so not to overload Server with bodies)
+			--Doesnt effect Bird and small animal Models
 
 
 
@@ -27,9 +31,6 @@ Things TODO
 
 	start Support for Collectables
 	start Hide system quality
-	change harvested Peds to the skinned models of them
-		--Doesnt effect Bird Models
-		-- for now its deleteing them
 	finish Animal cfg for all the animals
 	finish Critter cfg for the small game animals
 	finish Collectable cfg for all the Collectables
