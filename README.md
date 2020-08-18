@@ -1,4 +1,4 @@
-Ver 2.1
+Ver 2.2
 
 Thanks to Cryptos' loot for the base of this
 and A HUGE thanks to Poke for helping me out!
