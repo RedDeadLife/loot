@@ -1,3 +1,5 @@
+Ver 2.1
+
 Thanks to Cryptos' loot for the base of this
 and A HUGE thanks to Poke for helping me out!
 the skinning is baised on Juan_Hunting cfg layout since a lot of the work has already been done.
@@ -17,6 +19,7 @@ Changes
 	started support for Plucking (SKINNING) birds.
 	Item Loot table so you can loot random things from the npc's -- just add the items in the nil place
 	RDO style looting prompts
+	Updated config to remove nil errors
 
 
 
