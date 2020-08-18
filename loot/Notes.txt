@@ -15,6 +15,10 @@ Changes
 	started support for Plucking (SKINNING) birds.
 	Item Loot table so you can loot random things from the npc's -- just add the items in the nil place
 	RDO style looting prompts
+	Fixed skinable = false (overkilled them while trying to keep cheatting down)
+	Fixed Double SQl entry 
+	Added Carcass after skinning is completed. (Carcass stick around for about 20 sec each , so not to overload Server with bodies)
+
 
 
 
@@ -30,3 +34,8 @@ finish Critter cfg for the small game animals
 finish Collectable cfg for all the Collectables
 finish SQL for lootable items
 finish sql for collectable items
+
+
+
+
+    

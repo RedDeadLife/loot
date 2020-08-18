@@ -35,15 +35,26 @@ Citizen.CreateThread(function()
 							PromptSetVisible(skinPrompt, false)--turns prompt off
 							AnimLooting()
 							TriggerServerEvent("loot:addxp", 20) -- once there is Cores this needs to be changed to DeadEye
-							TriggerServerEvent("loot:add", Animal[i]["item"])
-							Wait(1000)
-							TriggerServerEvent("loot:add", Animal[i]["item2"])
- 							--deleting for now. until I know how to change the models to the skinned Models
-							SetEntityAsMissionEntity(entityHit)
-							DeleteEntity(entityHit) --deleting for now. 
-							prompt,prompt2 = false, false
-							skinnable = false
+
+								TriggerServerEvent("loot:add", Animal[i]["item"])
+								Wait(1000)
+								TriggerServerEvent("loot:add", Animal[i]["item2"])
+ 								--deleting for now. until I know how to change the models to the skinned Models
+								SetEntityAsMissionEntity(entityHit)
+								DeleteEntity(entityHit) --deleting for now. 
+								carcuss = Animal[i]["carcuss"]
+								Citizen.CreateThread(function()
+									local object = CreateObject(carcuss, coords.x, coords.y, coords.z, true, true, false)
+									PlaceObjectOnGroundProperly(object)
+									Citizen.Wait(20000)
+									DeleteObject(object)
+								end)
+								prompt,prompt2 = false, false
+								
 							break
+							PromptSetEnabled(cskinPrompt, false)--turns prompt off
+							PromptSetVisible(cskinPrompt, false)--turns prompt off
+
 						end
 					end
 				end

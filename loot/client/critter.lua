@@ -39,9 +39,16 @@ Citizen.CreateThread(function()
  							--deleting for now. until I know how to change the models to the skinned Models
 							SetEntityAsMissionEntity(entityHit)
 							DeleteEntity(entityHit) --deleting for now. 
+							--spawn skinned corpse
+							carcuss = 94387424
+							local object = CreateObject(carcuss, x, y, z, true, true, false)
+							PlaceObjectOnGroundProperly(carcuss)
 							prompt,prompt2 = false, false
 							skinnable = false
 							break
+							PromptSetEnabled(cskinPrompt, false)--turns prompt off
+							PromptSetVisible(cskinPrompt, false)--turns prompt off
+							skinnable = false
 						end
 					end
 				end
@@ -57,6 +64,7 @@ function AnimLooting()-- do cleaner anims
 	TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_HUMAN_STAND_WAITING'), 10000, true, false, false, false)
 	Wait(2000)
 	ClearPedTasksImmediately(PlayerPedId())
+	
 end
 
 function SetupcskinPrompt ()

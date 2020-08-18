@@ -40,7 +40,7 @@ Citizen.CreateThread(function()
 									Wait(500)
 									local lootedcheck = Citizen.InvokeNative(0x8DE41E9902E85756, entityHit)
 									if lootedcheck then
-										local randomroll = math.random(1,50)
+										local randomroll = math.random(1,25)
 										local loot = math.random(1, 10)
 										local lootpay = loot / 100
 										local xppay = math.random(0, 2)
@@ -48,9 +48,9 @@ Citizen.CreateThread(function()
 										TriggerServerEvent("loot:addxp", xppay)
 										--Soon Add Karma System
 										for i, row in pairs(Loot) do
-											if randomroll == Loot[i]["number"]then
-												TriggerServerEvent("loot:add", Loot[i]["item"])
-											end
+												if randomroll == Loot[i]["number"]then
+													TriggerServerEvent("loot:add", Loot[i]["item"])
+												end
 										end	
 									else
 										looting = false

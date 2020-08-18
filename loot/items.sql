@@ -19,7 +19,7 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('crowcarcass', 'Crow  Carcass', 20, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('blacksquirrelcarcass', 'Blacksquirrel Carcass', 20, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('brownratcarcass', 'Brown Rat Carcass', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('carolinaparakeetcarcass', 'Carolina Parakeet Carcass', 20, 1, 'item_standard', 1);
+
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('songbirdcarcass', 'Songbird Carcass', 20, 1, 'item_standard', 1);
 
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('bearhide', 'Bear Skin', 20, 1, 'item_standard', 1);
@@ -44,6 +44,8 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 
 
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('deerhide', 'Deer Skin', 20, 1, 'item_standard', 1);
+
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('nil', 'nil', -1, 1, 'item_standard', 1);
 
 
 

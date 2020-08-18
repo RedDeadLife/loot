@@ -41,6 +41,9 @@ Citizen.CreateThread(function()
 							prompt,prompt2 = false, false
 							skinnable = false
 							break
+							PromptSetEnabled(cskinPrompt, false)--turns prompt off
+							PromptSetVisible(cskinPrompt, false)--turns prompt off
+							skinnable = false
 						end
 					end
 				end

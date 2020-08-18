@@ -9,5 +9,6 @@ client_script {'client/npcs.lua',
 'client/animal.lua',
 'client/critter.lua',
 'client/fowl.lua',
+'client/collectable.lua',
 'config.lua',
 }
