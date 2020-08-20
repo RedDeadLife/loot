@@ -7,6 +7,8 @@ the skinning is baised on Juan_Hunting cfg layout since a lot of the work has al
 This will not work with Juan_Hunting by default
 
 Not all Ped Models have been added to the loot.
+
+EXTRA : if you want to use Juan_Hunting also then just comment out animals.lua in the fxmanifest.lua
 	
 
 
