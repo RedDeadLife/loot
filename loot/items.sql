@@ -122,7 +122,7 @@ INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VA
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Muskrat Hide', 'Perfect Muskrat Hide', 20, 1, 'item_standard', 1);
 
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Alligator Hide', 'Poor Alligator Hide', 20, 1, 'item_standard', 1);
-INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Alligator Hide', 'Beaver Skin', 20, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Alligator Hide', 'Alligator Hide', 20, 1, 'item_standard', 1);
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Perfect Alligator Hide', 'Perfect Alligator Hide', 20, 1, 'item_standard', 1);
 
 INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('Poor Beaver Skin', 'Poor Beaver Skin', 20, 1, 'item_standard', 1);
