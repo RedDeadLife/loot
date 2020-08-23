@@ -1,1 +1,112 @@
-    {      "Name": "Bear Hide",    "SellPrice": 5,      "ObjectModel": ""  },
+    {"Name": "Pefect Bear Hide", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Bear Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Bear Hide", 	 "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Ram Hide", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Ram Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Ram Hide", 	 "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Boar Hide", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Boar Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Boar Hide", 	 "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Buck Skin", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Buck Skin",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Buck Skin", 	 "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Bison Hide", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Bison Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Bison Hide",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Bull Hide", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Bull Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Bull Hide",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Deer Skin", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Deer Skin",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Deer Skin", 	 "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Elk Hide", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Elk Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Elk Hide",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Fox Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Fox Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Fox Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Wolf Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Wolf Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Wolf Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Snake Skin", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Snake Skin",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Snake Skin",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Skunk Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Skunk Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Skunk Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Sheep Skin", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Sheep Skin",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Sheep Skin",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Pronghorn Doe Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Pronghorn Doe Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Pronghorn Doe Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Possum Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Possum Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Possum Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Pig Skin", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Pig Skin",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Pig Skin",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Panther Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Panther Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Panther Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Cougar Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Cougar Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Cougar Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Cow Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Cow Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Cow Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Coyote Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Coyote Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Coyote Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Lizard Skin", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Lizard Skin",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Lizard Skin",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Goat Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Goat Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Goat Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Moose Skin", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Moose Skin",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Moose Skin",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Muskrat Hide",  "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Muskrat Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Muskrat Hide",    "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Beaver Skin", "SellPrice":2.5, 	"ObjectModel": ""  },
+    {"Name": "Beaver Skin",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Beaver Skin",  "SellPrice":0.5, 	"ObjectModel": ""  },
+
+    {"Name": "Pefect Alligator Hide",  "SellPrice":2.5, "ObjectModel": ""  },
+    {"Name": "Alligator Hide",	 "SellPrice": 1.0,	"ObjectModel": ""  },
+    {"Name": "Poor Alligator Hide",    "SellPrice":0.5, "ObjectModel": ""  },
+
+    {"Name": "Frog Leg",  "SellPrice":0.05, 		"ObjectModel": ""  },
+    {"Name": "Crab Meat", "SellPrice":0.20,		"ObjectModel": ""  },
+    {"Name": "Crawfish",   "SellPrice":0.05, 		"ObjectModel": ""  },
+    {"Name": "Rabbit Hide", "SellPrice":0.05, 		"ObjectModel": ""  },
+    {"Name": "Racoon Hide", "SellPrice":0.05, 		"ObjectModel": ""  },
+    {"Name": "Feather", "SellPrice":0.01, 		"ObjectModel": ""  },
+    {"Name": "Crafting Feather", "SellPrice":0.02, 	"ObjectModel": ""  },
+
