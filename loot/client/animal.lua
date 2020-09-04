@@ -55,7 +55,7 @@ Citizen.CreateThread(function()
 									DeleteObject(object)
 								end)
 								DeleteEntity(entityHit) 
-								skinnable = false
+
 							prompt,prompt2 = false, false
 							break
 						end
