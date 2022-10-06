@@ -26,7 +26,7 @@ AddEventHandler('loot:addxp', function(xppay)
 	TriggerClientEvent("vorp:TipRight", _source, '+'..xppay..' XP', 3000)
 end)
 
-RegisterNetEvent('loot:giveItem')
+RegisterServerEvent('loot:giveItem')
 AddEventHandler('loot:giveItem', function(item)
 	local _item = items -- This just doesnt work?!?!
     local _source = source
