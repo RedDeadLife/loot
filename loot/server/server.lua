@@ -32,5 +32,5 @@ AddEventHandler('loot:giveItem', function(item)
     local _source = source
 	local randomitem =  math.random(0,5)
 	VorpInv.addItem(_source, _item, randomitem)
-	TriggerClientEvent("vorp:TipRight", _source, item, 3000)
+	TriggerClientEvent("vorp:TipRight", _source, _item, 3000)
 end)
